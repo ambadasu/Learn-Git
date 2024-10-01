@@ -10,8 +10,27 @@ Unlike older centralized version control systems, git is distributed — every d
 
 Nearly all modern software development relies on Git for version control. It fosters better collaboration and enables developers to contribute more easily to open source. Mastering git is a must for any aspiring developer.
 
+Some of the basic operations in Git are:
+
+Initialize
+Add
+Commit
+Pull
+Push
+Some advanced Git operations are:
+
+Branching
+Merging
+Rebasing
+Let me first give you a brief idea about how these operations work with the Git repositories. Take a look at the architecture of Git below:
+
+
+Git Architecture - Git Tutorial
+
+
 Installing Git
 Git comes pre-installed on many operating systems, but you can download the latest version from the official website. Follow the installation wizard, selecting your OS and preferred options.
+![git_architecture](https://github.com/user-attachments/assets/4d6dff42-1843-4454-a4c2-8648b7d2fc5a)
 
 To confirm it is installed correctly, open your terminal or command prompt and enter:
 
