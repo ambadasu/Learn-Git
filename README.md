@@ -1,5 +1,6 @@
 # Learn-Git
 
+
 Git and GitHub have become essential tools for developers looking to build their skills and collaborate on impactful open-source projects. This step-by-step guide will take you from git basics to advanced workflows, setting you up for success on your open-source journey.
 
 What is Git?
@@ -41,8 +42,8 @@ This creates a hidden .git subfolder that contains all of Git’s tracking data 
 
 Once you have a repo, you can start tracking files with these core commands:
 
-git add filename: Adds files to the staging area to be committed
-git commit -m “Meaningful message”: Commits staged files to the repository with a log message
+git add filename # Adds files to the staging area to be committed
+git commit -m “Meaningful message” # Commits staged files to the repository with a log message
 git status: Checks the status — which files are staged, unstaged, or untracked
 For example:
 
@@ -121,10 +122,9 @@ Fork, clone, branch, change, commit, push, PR — these compose the git workflow
 Git Best Practices
 Follow these best practices as you work with Git:
 
-Write clear, concise commit messages explaining why
-Keep a linear commit history with rebases instead of merges
-Test locally before pushing to avoid breaking the build
-Review your code with linters like Prettier to catch issues
-Prune remote branches after merging PRs
-Sync your fork to avoid diverging too far from the upstream
-Ask for code reviews from contributors when you need help
+1) Write clear, concise commit messages explaining why Keep a linear commit history with rebases instead of merges
+2) Test locally before pushing to avoid breaking the build
+3) Review your code with linters like Prettier to catch issues
+4) Prune remote branches after merging PRs
+5) Sync your fork to avoid diverging too far from the upstream
+6) Ask for code reviews from contributors when you need help
