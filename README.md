@@ -61,11 +61,14 @@ This creates a hidden .git subfolder that contains all of Git’s tracking data 
 
 Once you have a repo, you can start tracking files with these core commands:
 
-git add filename # Adds files to the staging area to be committed
-git commit -m “Meaningful message” # Commits staged files to the repository with a log message
-git status: Checks the status — which files are staged, unstaged, or untracked
-For example:
+git add filename
+# Adds files to the staging area to be committed
+git commit -m “Meaningful message”
+# Commits staged files to the repository with a log message
+git status
+Checks the status — which files are staged, unstaged, or untracked
 
+For example:
 git add index.html
 git commit -m "Add initial homepage" 
 git status
